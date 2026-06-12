@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about-forms</title>
+</head>
+<body>
+    <header>
+    <h1>making forms</h1>
+<form action="/submit" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+    <label for="file">Upload File:</label>
+    <input type="file" id="file" name="file"><br><br>
+    <label for="quantity">Quantity:</label>
+    <input type="range" id="quantity" name="quantity" min="1" max="10"><br><br>
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" min="0" max="120"><br><br>
+    <input type="checkbox" id="subscribe" name="subscribe">
+    <input type="reset" value="Reset">
+    <label for="subscribe">Subscribe to newsletter</label><br><br>
+    <input type="color" id="color" name="color"><br><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male<br><br>
+    </label>
+    <label for="country">Country:<br>
+    <div>
+        <select name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</option>
+            <option value="india">India</option>
+            <option value="nepal">Nepal</option>
+            <option value="brazil">Brazil</option>
+            <option value="germany">Germany</option>
+            <option value="china">China</option>
+            <option value="russia">Russia</option>
+            <option value="thailand">Thailand</option>
+    </div>
+    </label>
+    <input type="submit" value="Submit">
+</form>
+    </header>
+    <footer>
+        <p>
+            <a href="tables.html">&lt;&lt; Previous</a>&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp; <a href="semantic.html">Next &gt;&gt;</a>
+        </p>
+    </footer>
+</body>
+</html>
